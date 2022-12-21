@@ -1,0 +1,137 @@
+Body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.hotelContainer{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    margin: 0 auto;
+}
+.hotelContainer>button{
+    position: absolute;
+    top: 25px;
+    right: 0;
+}
+.hotelDetails{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.addressWrapper{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.addessDesc{
+     color: #0071c2;
+     font-weight: 500;
+     margin: 10px 0;
+}
+.addessHighLight{
+    color: #008009;
+    font-weight: 500;
+}
+.hotelImgWrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.hotelImg{
+    width: 33%;  
+}
+.hotelImg img{
+    object-fit: cover;
+    width: 100%;
+}
+.hotelDetailDesc{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.descBody{
+    flex: 3;
+}
+
+.descBody>h1{
+    font-size: 24px;
+}
+.descBody>p{
+    font-size: 14px;
+    line-height: 1.35;
+}
+.descInfo{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ebf3ff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.descInfo>h1{
+    font-size: 18px;
+}
+.descInfo>span{
+    font-size: 14px;
+}
+.descInfo>p{
+    font-size: 24px;
+}
+.bookNowBtn{
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.slider{
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.678);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.sliderWrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sliderImg{
+    height: 80vh;
+    width: 80%;
+}
+.close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: lightgray;
+}
+.arrow{
+    font-size: 30px;
+    color: lightgray;
+    margin: 50px;
+}
